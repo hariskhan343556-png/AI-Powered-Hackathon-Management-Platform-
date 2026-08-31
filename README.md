@@ -1,159 +1,614 @@
-# AI-Powered-Hackathon-Management-Platform
+# 🚀 AI-Powered Hackathon Management Platform
 
-👨‍💻 Developer
-Muhammad Haris Khan
+### HackSupport.pro — Intelligent Hackathon Management with AI
 
-GitHub: @hariskhan343556-png
+An **AI-powered, enterprise-ready hackathon management platform** designed to automate and simplify the complete hackathon lifecycle — from event creation and team management to AI-assisted project judging, feedback, analytics, and coordination.
 
-LinkedIn: Muhammad Haris Khan
+The platform introduces two intelligent AI agents:
 
-Email: hariskhan343556@gmail.com
+* 🤖 **JudgeGPT** — AI-powered project evaluation and feedback
+* 🧠 **HostGPT** — Intelligent hackathon organization, task assignment, and event coordination
 
-📋 Overview
-HackSupport.pro is a comprehensive, enterprise-grade hackathon management platform developed by Muhammad Haris Khan that leverages artificial intelligence to streamline the entire hackathon lifecycle - from project submission and evaluation to event coordination and team management.
+---
 
-About the Developer
-Muhammad Haris Khan is a passionate full-stack developer and AI enthusiast with extensive experience in building scalable web applications. With a strong background in Python, React, and Machine Learning, Haris has dedicated this project to revolutionizing the hackathon experience through intelligent automation.
+## 🌟 Overview
 
-The Problem We Solve
-Traditional hackathons face numerous challenges:
+Traditional hackathons often rely heavily on manual coordination and subjective judging. This can lead to inconsistent evaluations, administrative overhead, limited participant feedback, and difficulties managing large numbers of teams and projects.
 
-Biased judging - Human judges can be subjective and inconsistent
+**HackSupport.pro** addresses these challenges by combining **Artificial Intelligence, real-time communication, analytics, automation, and scalable web architecture** into one platform.
 
-Manual coordination - Event management is time-consuming and error-prone
+### 🎯 The platform focuses on:
 
-Scalability issues - Managing hundreds of projects is overwhelming
+* Fair and consistent project evaluation
+* Automated hackathon management
+* Intelligent task assignment
+* Real-time participant tracking
+* AI-generated feedback
+* Analytics and performance monitoring
+* Team collaboration
+* Scalable event management
 
-Limited feedback - Participants often receive minimal constructive feedback
+---
 
-Disorganized workflows - Task assignment and scheduling are chaotic
+## 🤖 AI Agents
 
-Our Solution
-HackSupport.pro solves these challenges with two powerful AI agents:
+### JudgeGPT — AI Project Evaluation
 
-JudgeGPT: Automated project evaluation with fair, consistent, and detailed feedback
-HostGPT: Intelligent task assignment, event coordination, and schedule optimization
+JudgeGPT assists judges and organizers by automatically analyzing submitted projects against configurable evaluation criteria.
 
-✨ Key Features
-AI-Powered Core
-Feature	Description
-JudgeGPT	Multi-dimensional project scoring (Innovation, Feasibility, Design, Impact, Technical Complexity)
-HostGPT	Smart task assignment, resource allocation, and schedule optimization
-Real-time Feedback	Instant AI-generated feedback for participants
-Analytics Dashboard	Comprehensive insights and performance metrics
-Automated Reports	Weekly and custom report generation
-Platform Capabilities
-For Organizers (Hosts):
+#### Evaluation dimensions include:
 
-Create and manage hackathons with custom configurations
+| Criterion               | Description                                         |
+| ----------------------- | --------------------------------------------------- |
+| 💡 Innovation           | Originality and creativity of the project           |
+| ⚙️ Technical Complexity | Technical implementation and engineering difficulty |
+| 🎯 Impact               | Potential usefulness and real-world impact          |
+| 🛠️ Feasibility         | Practicality and ability to implement the solution  |
+| 🎨 Design               | User experience and overall design quality          |
 
-AI-powered task assignment and scheduling
+### JudgeGPT provides:
 
-Real-time participant tracking and analytics
+* Multi-dimensional project scoring
+* AI-generated evaluation
+* Detailed feedback
+* Improvement suggestions
+* Consistent scoring
+* Real-time score updates
+* Multi-criteria assessment
+* Support for blind evaluation
 
-Automated communication and reminders
+---
 
-Custom scoring rubrics and evaluation criteria
+### HostGPT — Intelligent Hackathon Management
 
-Multi-hackathon management
+HostGPT acts as an intelligent assistant for hackathon organizers.
 
-Subscription and licensing management
+It helps automate:
 
-For Judges:
+* 📋 Task assignment
+* 👥 Resource allocation
+* 📅 Schedule optimization
+* 📢 Event coordination
+* 🔔 Automated reminders
+* 📊 Participant monitoring
+* ⚡ Administrative workflows
 
-AI-assisted project evaluation
+The goal is to reduce the manual workload of organizers while improving the overall hackathon experience.
 
-Fair and consistent scoring
+---
 
-Detailed feedback generation
+# ✨ Key Features
 
-Real-time score updates
+## 🏢 For Hackathon Organizers
 
-Multi-criteria assessment
+* Create and configure hackathons
+* Manage multiple hackathons
+* Configure custom judging rubrics
+* AI-powered task assignment
+* Intelligent scheduling
+* Real-time participant tracking
+* Analytics dashboard
+* Automated communication
+* Automated reminders
+* Custom evaluation criteria
+* Subscription and licensing management
+* Automated reports
 
-Blind evaluation support
+---
 
-For Participants:
+## ⚖️ For Judges
 
-Project submission and management
+* AI-assisted project evaluation
+* Fair and consistent scoring
+* Multi-dimensional evaluation
+* Detailed AI-generated feedback
+* Real-time score updates
+* Custom scoring criteria
+* Blind evaluation support
+* Project comparison and analysis
+
+---
+
+## 👨‍💻 For Participants
+
+* Project submission and management
+* Team collaboration
+* Real-time evaluation results
+* AI-generated feedback
+* Improvement recommendations
+* Progress tracking
+* Resource library access
+* Participation management
+
+---
+
+# 📊 Dashboard
+
+The platform provides a centralized dashboard for monitoring hackathon activities, participants, projects, judging progress, and analytics.
+
+![HackSupport.pro Dashboard](https://raw.githubusercontent.com/hariskhan343556-png/hacksupport-pro/main/screenshots/dashboard.png)
+
+---
+
+# 🤖 JudgeGPT — AI Project Evaluation
+
+JudgeGPT provides AI-assisted evaluation of hackathon projects using multiple evaluation dimensions.
+
+![JudgeGPT](https://raw.githubusercontent.com/hariskhan343556-png/hacksupport-pro/main/screenshots/judgegpt.png)
+
+---
+
+# 🧠 HostGPT — AI Hackathon Management
+
+HostGPT assists organizers with intelligent scheduling, task assignment, resource management, and event coordination.
+
+![HostGPT](https://raw.githubusercontent.com/hariskhan343556-png/hacksupport-pro/main/screenshots/hostgpt.png)
+
+---
+
+# 🏗️ System Architecture
+
+HackSupport.pro follows a modern **microservices-oriented architecture** designed for scalability, security, and real-time communication.
+
+```text
+                         ┌─────────────────────────┐
+                         │       Client Layer      │
+                         │                         │
+                         │ React Web Application   │
+                         │ PWA / Mobile            │
+                         │ CLI / API Clients       │
+                         └────────────┬────────────┘
+                                      │
+                                      ▼
+                         ┌─────────────────────────┐
+                         │      Load Balancer      │
+                         │         Nginx           │
+                         └────────────┬────────────┘
+                                      │
+                                      ▼
+                    ┌─────────────────────────────────┐
+                    │       Application Layer         │
+                    │                                 │
+                    │          FastAPI Backend        │
+                    │                                 │
+                    │ Auth │ Hackathons │ Judging     │
+                    │ Tasks │ Users │ Analytics       │
+                    └───────────────┬─────────────────┘
+                                    │
+                 ┌──────────────────┴──────────────────┐
+                 │                                     │
+                 ▼                                     ▼
+       ┌─────────────────────┐             ┌─────────────────────┐
+       │      AI Layer       │             │  Real-Time Layer    │
+       │                     │             │                     │
+       │     JudgeGPT        │             │ WebSocket Server    │
+       │     HostGPT         │             │ Live Updates        │
+       └──────────┬──────────┘             └─────────────────────┘
+                  │
+                  ▼
+       ┌─────────────────────────────────────────────┐
+       │                Data Layer                   │
+       │                                             │
+       │ PostgreSQL │ Redis │ Celery │ Cloud/S3     │
+       └─────────────────────────────────────────────┘
+```
+
+---
+
+# 🛠️ Technology Stack
+
+## Backend
+
+* **FastAPI**
+* **Python**
+* **PostgreSQL**
+* **SQLAlchemy**
+* **Redis**
+* **Celery**
+* REST APIs
+* WebSockets
+
+## Frontend
+
+* **React**
+* React Hooks
+* Context API
+* Axios
+* Socket.io Client
+* CSS Modules
+
+## Artificial Intelligence & Machine Learning
 
-Real-time evaluation results
+* **OpenAI GPT**
+* **scikit-learn**
+* Natural Language Processing
+* Random Forest
+* Support Vector Machines
+* K-Means clustering
+* Recommendation systems
+
+## Authentication & Security
+
+* JWT Authentication
+* OAuth2
+* bcrypt password hashing
+* Role-Based Access Control
+* API rate limiting
+* Secure API architecture
 
-Constructive feedback and improvement suggestions
+## DevOps & Infrastructure
 
-Team collaboration tools
+* Docker
+* Docker Compose
+* Kubernetes-ready architecture
+* Nginx
+* GitHub Actions
+* Prometheus
+* Grafana
+* Load balancing
+* SSL support
+
+---
+
+# 🔐 Security
+
+Security is a core component of the platform.
+
+### Implemented security mechanisms include:
+
+* 🔑 JWT authentication
+* 🛡️ Role-based access control
+* 🔒 Password hashing with bcrypt
+* 🚦 API rate limiting
+* 🔐 OAuth2 authentication
+* 🌐 SSL-ready infrastructure
+* 📡 Secure WebSocket communication
+
+---
+
+# ⚡ Performance & Scalability
+
+HackSupport.pro is designed to support large-scale hackathons and growing numbers of users.
+
+### Performance features:
+
+* Redis caching
+* Asynchronous FastAPI operations
+* Database connection pooling
+* Celery background jobs
+* Horizontal scaling
+* Load-balancer-ready architecture
+* Real-time WebSocket communication
+
+---
+
+# 📡 Real-Time Communication
+
+The platform uses WebSocket technology to provide real-time updates.
+
+Users can receive live information about:
+
+* Judging progress
+* Project scores
+* Hackathon events
+* Task assignments
+* Notifications
+* Participant activity
+* Chat and collaboration
+
+---
+
+# 📈 Analytics
+
+The analytics system provides organizers with insights into hackathon performance.
+
+### Analytics can include:
+
+* Participant activity
+* Project submissions
+* Judging progress
+* Evaluation scores
+* Team performance
+* Hackathon statistics
+* Overall performance metrics
+
+---
+
+# 📋 Automated Reporting
+
+HackSupport.pro supports automated reporting to reduce administrative work.
+
+Reports can provide:
+
+* Hackathon performance summaries
+* Project evaluation results
+* Participant statistics
+* Judge performance
+* Progress information
+* Custom analytics
+
+---
+
+# 🗂️ Project Structure
 
-Resource library access
+A simplified architecture of the project:
 
-Progress tracking
+```text
+AI-Powered-Hackathon-Management-Platform/
+│
+├── backend/
+│   ├── auth/
+│   ├── hackathons/
+│   ├── judging/
+│   ├── tasks/
+│   ├── analytics/
+│   ├── users/
+│   └── main.py
+│
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── context/
+│   └── App.jsx
+│
+├── ai/
+│   ├── judgegpt/
+│   ├── hostgpt/
+│   └── models/
+│
+├── websocket/
+│   └── websocket_server.py
+│
+├── screenshots/
+│
+├── docker-compose.yml
+├── Dockerfile
+├── README.md
+└── requirements.txt
+```
+
+> The exact directory structure may vary depending on the current implementation.
+
+---
+
+# 🚀 Getting Started
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/hariskhan343556-png/AI-Powered-Hackathon-Management-Platform-.git
+
+cd AI-Powered-Hackathon-Management-Platform-
+```
+
+## 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Configure Environment Variables
+
+Create a `.env` file:
+
+```env
+DATABASE_URL=your_database_url
+REDIS_URL=your_redis_url
+OPENAI_API_KEY=your_openai_api_key
+JWT_SECRET=your_jwt_secret
+```
+
+## 5. Start the Backend
+
+```bash
+uvicorn main:app --reload
+```
+
+The API can then be accessed through the FastAPI server.
+
+---
+
+# 🐳 Docker
+
+The platform is designed to support containerized deployment.
+
+Build the containers:
+
+```bash
+docker compose build
+```
+
+Start the application:
+
+```bash
+docker compose up
+```
+
+Stop the services:
+
+```bash
+docker compose down
+```
+
+---
+
+# 🔄 Workflow
+
+```text
+                 ┌──────────────┐
+                 │    Host      │
+                 └──────┬───────┘
+                        │
+                        ▼
+              Create Hackathon
+                        │
+                        ▼
+              Configure Rules
+                        │
+                        ▼
+                Register Teams
+                        │
+                        ▼
+               Project Submission
+                        │
+                        ▼
+              ┌──────────────────┐
+              │    JudgeGPT      │
+              │ AI Evaluation    │
+              └────────┬─────────┘
+                       │
+                       ▼
+               Scores & Feedback
+                       │
+                       ▼
+                 Analytics
+                       │
+                       ▼
+                  Final Results
+```
 
-Technical Features
-Enterprise Security: JWT authentication, role-based access control, rate limiting
+---
 
-High Performance: Redis caching, async/await, connection pooling
+# 💡 Why HackSupport.pro?
 
-Real-time: WebSocket support for live updates and chat
+Traditional hackathon platforms often focus primarily on registration and event management.
 
-Extensible: Microservices architecture, API versioning, webhook support
+HackSupport.pro goes further by introducing **AI-driven automation throughout the hackathon lifecycle**.
 
-Scalable: Horizontal scaling with Redis, load balancing ready
+### Traditional Hackathon
 
-Developer Friendly: Complete API documentation, testing suite, CI/CD ready
+```text
+Manual Judging
+      ↓
+Manual Feedback
+      ↓
+Manual Scheduling
+      ↓
+Manual Coordination
+      ↓
+Limited Analytics
+```
 
-🏛️ Architecture
-The platform follows a modern microservices architecture:
+### HackSupport.pro
 
-Client Layer: Web App (React), Mobile (PWA), CLI Client, API Client
-Load Balancer: Nginx
-Application Layer: FastAPI Backend with modules for Auth, Hackathon, Judging, Tasks, Analytics, Users
-AI Layer: JudgeGPT Engine, HostGPT Engine, WebSocket Server
-Data Layer: PostgreSQL, Redis Cache, Celery Queue, S3/Cloud Storage
+```text
+       AI Evaluation
+             ↓
+      Intelligent Feedback
+             ↓
+      Smart Scheduling
+             ↓
+     Automated Coordination
+             ↓
+       Live Analytics
+```
 
-🛠️ Technology Stack
-Backend
-Framework: FastAPI
+---
 
-Database: PostgreSQL with SQLAlchemy ORM
+# 🎯 Future Roadmap
 
-Cache: Redis for caching and pub/sub
+Potential future improvements include:
 
-Queue: Celery with Redis broker
+* [ ] Advanced multimodal project evaluation
+* [ ] AI-powered code analysis
+* [ ] Automated plagiarism detection
+* [ ] Advanced team matching
+* [ ] Mobile application
+* [ ] Advanced recommendation engine
+* [ ] More third-party integrations
+* [ ] Advanced notification system
+* [ ] Multi-language AI support
+* [ ] Advanced organizer analytics
+* [ ] Cloud-native deployment
+* [ ] Enterprise multi-tenant support
 
-AI: OpenAI API (GPT-4), scikit-learn for ML
+---
 
-Auth: JWT with OAuth2, bcrypt hashing
+# 👨‍💻 Developer
 
-Monitoring: Prometheus, Grafana
+### Muhammad Haris Khan
 
-Frontend
-Framework: React with Hooks
+Full-Stack Developer & AI Enthusiast
 
-State Management: Context API
+**GitHub:** [@hariskhan343556-png](https://github.com/hariskhan343556-png)
 
-Real-time: Socket.io-client
+**LinkedIn:** Muhammad Haris Khan
 
-Styling: CSS Modules with dark theme
+**Email:** [hariskhan343556@gmail.com](mailto:hariskhan343556@gmail.com)
 
-HTTP Client: Axios
+---
 
-DevOps
-Containerization: Docker & Docker Compose
+# 🤝 Contributing
 
-Orchestration: Kubernetes ready
+Contributions, suggestions, and improvements are welcome.
 
-CI/CD: GitHub Actions ready
+1. Fork the repository
+2. Create a new branch
 
-Load Balancer: Nginx with SSL
+```bash
+git checkout -b feature/your-feature
+```
 
-Monitoring: Prometheus metrics
+3. Make your changes
+4. Commit your changes
 
-AI/ML Stack
-LLM: OpenAI GPT-4 for evaluation and insights
+```bash
+git commit -m "Add your feature"
+```
 
-NLP: scikit-learn for text analysis
+5. Push your branch
 
-Recommendations: Collaborative filtering
+```bash
+git push origin feature/your-feature
+```
 
-Classification: Random Forest, SVM
+6. Open a Pull Request
 
-Clustering: K-means for team matching
+---
+
+# 📄 License
+
+This project is currently provided for educational, research, and development purposes.
+
+Please check the repository for the latest licensing information.
+
+---
+
+# ⭐ Support the Project
+
+If you find **HackSupport.pro** useful or interesting:
+
+⭐ Star the repository
+🍴 Fork the project
+🐛 Report issues
+💡 Suggest improvements
+🤝 Contribute to the project
+
+---
+
+## 🚀 HackSupport.pro
+
+### **Transforming Hackathons with Artificial Intelligence**
+
+> **Judge smarter. Organize faster. Build better.**
+
+**AI-Powered Hackathon Management — from registration to results.**
